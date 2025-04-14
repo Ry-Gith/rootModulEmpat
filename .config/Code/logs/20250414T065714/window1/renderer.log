@@ -1,0 +1,14 @@
+2025-04-14 06:57:19.554 [info] Started local extension host with pid 7580.
+2025-04-14 06:57:24.765 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-04-14 06:57:27.188 [info] [perf] Render performance baseline is 160ms
+2025-04-14 06:58:44.784 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Cf.getLineMaxColumn (vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:253:112)
+    at vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13251
+    at HI._computeFn (vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24260)
+    at HI.q (vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25793)
+    at HI.get (vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25545)
+    at HI.reportChanges (vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:15998)
+    at rse.endUpdate (vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:22892)
+    at HI.endUpdate (vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26591)
+    at _5.finish (vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17858)
+    at Hi (vscode-file://vscode-app/snap/code/187/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17251)

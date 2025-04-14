@@ -1,0 +1,64 @@
+2025-04-14 06:57:30.357 [info] [main] Log level: Info
+2025-04-14 06:57:30.357 [info] [main] Validating found git in: "git"
+2025-04-14 06:57:30.357 [info] [main] Using git "2.43.0" from "git"
+2025-04-14 06:57:30.357 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-14 06:57:30.357 [info] > git rev-parse --show-toplevel [16ms]
+2025-04-14 06:57:30.357 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.380 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-14 06:57:30.380 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.394 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-14 06:57:30.394 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.418 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-14 06:57:30.418 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.442 [info] > git rev-parse --show-toplevel [9ms]
+2025-04-14 06:57:30.442 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.473 [info] > git rev-parse --show-toplevel [11ms]
+2025-04-14 06:57:30.473 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.497 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-14 06:57:30.497 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.516 [info] > git rev-parse --show-toplevel [8ms]
+2025-04-14 06:57:30.516 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.537 [info] > git rev-parse --show-toplevel [11ms]
+2025-04-14 06:57:30.537 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.586 [info] > git rev-parse --show-toplevel [24ms]
+2025-04-14 06:57:30.586 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.608 [info] > git rev-parse --show-toplevel [12ms]
+2025-04-14 06:57:30.608 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.630 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-14 06:57:30.630 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.650 [info] > git rev-parse --show-toplevel [9ms]
+2025-04-14 06:57:30.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.671 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-14 06:57:30.671 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.686 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-14 06:57:30.686 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.702 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-14 06:57:30.702 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.715 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-14 06:57:30.715 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.736 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-14 06:57:30.736 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:57:30.741 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-14 06:57:49.420 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-14 06:57:49.420 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:58:28.509 [info] > git rev-parse --show-toplevel [11ms]
+2025-04-14 06:58:28.509 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-14 06:59:53.320 [info] > git rev-parse --show-toplevel [14ms]
+2025-04-14 06:59:53.339 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-04-14 06:59:53.366 [info] [Model][openRepository] Opened repository: /home/rootModulEmpat
+2025-04-14 06:59:53.387 [info] > git config --get commit.template [5ms]
+2025-04-14 06:59:53.403 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-14 06:59:53.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-04-14 06:59:53.407 [warning] [Git][getBranch] No such branch: master
+2025-04-14 06:59:53.439 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-04-14 06:59:53.466 [info] > git status -z -uall [50ms]
+2025-04-14 06:59:53.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2025-04-14 06:59:53.597 [warning] [Git][getBranch] No such branch: master
+2025-04-14 06:59:53.600 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-04-14 06:59:54.169 [info] > git config --get commit.template [573ms]
+2025-04-14 06:59:54.205 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-14 06:59:54.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-04-14 06:59:54.206 [warning] [Git][getBranch] No such branch: master
+2025-04-14 06:59:54.251 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-04-14 06:59:54.279 [info] > git check-ignore -v -z --stdin [89ms]
+2025-04-14 06:59:54.281 [info] > git status -z -uall [51ms]
