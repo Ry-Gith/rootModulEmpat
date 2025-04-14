@@ -46,7 +46,7 @@ user_pref("browser.startup.couldRestoreSession.count", 1);
 user_pref("browser.startup.lastColdStartupCheck", 1744611945);
 user_pref("browser.tabs.groups.enabled", true);
 user_pref("browser.topsites.contile.cacheValidFor", 10800);
-user_pref("browser.topsites.contile.lastFetch", 1744613150);
+user_pref("browser.topsites.contile.lastFetch", 1744615251);
 user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"unified-extensions-area\":[],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"customizableui-special-spring1\",\"vertical-spacer\",\"urlbar-container\",\"customizableui-special-spring2\",\"save-to-pocket-button\",\"downloads-button\",\"fxa-toolbar-menu-button\",\"unified-extensions-button\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"firefox-view-button\",\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"vertical-tabs\":[],\"PersonalToolbar\":[\"import-button\",\"personal-bookmarks\"]},\"seen\":[\"save-to-pocket-button\",\"developer-button\"],\"dirtyAreaCache\":[\"nav-bar\",\"vertical-tabs\",\"PersonalToolbar\"],\"currentVersion\":21,\"newElementCount\":2}");
 user_pref("browser.urlbar.placeholderName", "Google");
 user_pref("browser.urlbar.quicksuggest.migrationVersion", 2);
